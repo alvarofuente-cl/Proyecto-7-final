@@ -1,0 +1,46 @@
+
+
+.product-item {
+    background-color: #edefdd;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 1rem;
+    width: 300px;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.product-item__image {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.product-item__body {
+    padding: 1rem;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    text-align: left;
+}
+
+.product-item__body p {
+    margin-bottom: 1rem;
+    font-size: 16px; 
+    }
+
+ /* para dar estilos a ProductList.jsx */
+  
+
+.product-list {
+    margin-top: 30px;
+}
