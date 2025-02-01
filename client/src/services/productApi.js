@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const URL_BASE = "https://aplicacion-backend-auth.onrender.com/api"; // desde aca deberiamos traer nuestros productos. desde el backend. tiene que llevar/api?????
-//const URL_BASE = "http://localhost:5000/api"
+//const URL_BASE = "https://aplicacion-backend-auth.onrender.com/api"; // desde aca deberiamos traer nuestros productos. desde el backend. tiene que llevar/api?????
+const URL_BASE = "http://localhost:3000/api"
 export const apiProductsClients = axios.create({
     baseURL: URL_BASE
 })

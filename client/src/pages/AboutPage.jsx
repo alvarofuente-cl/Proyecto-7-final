@@ -24,8 +24,8 @@ Contáctanos hoy mismo para obtener una cotización gratuita y descubre cómo po
             </div>
             <div className="about-image">
                 <img 
-                    src="/madre.jpg" 
-                    alt="Madre e hija tejiendo amigurumis" 
+                    src="/Vhs.jpg" 
+                    alt="Cinta VHS" 
                     className="about-img"
                 />
             </div>
